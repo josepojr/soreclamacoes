@@ -27,8 +27,8 @@ public class ReclamacaoController {
 		return result;
 	}
 	
-	@RequestMapping(value = "/findCidade/{cidade}", method = RequestMethod.GET)
-	public List<Reclamacao> findByCidade(@PathVariable("cidade") String filtro) {
+	@RequestMapping(value = "/findLocalidade/{localidade}", method = RequestMethod.GET)
+	public List<Reclamacao> findByLocalidade(@PathVariable("localidade") String filtro) {
 		final List<Reclamacao> result = reclamacaoRepositorio.findByLocalidadeNome(filtro);
 		
 		System.out.println("filtro: " + filtro);
