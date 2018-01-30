@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>soreclamacoes</artifactId>
-	<version>1.0.0-FINAL</version>
+	<version>1.1.0-FINAL</version>
 	<packaging>jar</packaging>
 
 	<name>soreclamacoes</name>
@@ -49,6 +49,10 @@
     			<artifactId>embedmongo-spring</artifactId>
     			<version>RELEASE</version>
 		</dependency>
+		<dependency>
+        		<groupId>org.springframework.boot</groupId>
+        		<artifactId>spring-boot-starter-security</artifactId>
+    		</dependency>
 	</dependencies>
 
 	<dependencyManagement>

@@ -1,10 +1,13 @@
 package com.josepojr.soreclamacoes.rest;
 
+import javax.annotation.security.PermitAll;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
+@PermitAll
 public class PaginaInicialController {
 	
 	@RequestMapping("/")
