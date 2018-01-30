@@ -17,3 +17,12 @@ Com a aplicação no ar, acesse o seguinte endereço para testá-la:
 
 http://127.0.0.1:8080/
 
+Será redirecionada (pois HTTPS está ativado) para:
+
+http://127.0.0.1:8443/
+
+E pedirá uma senha do autorizador padrão.
+
+Essa senha aparecerá no log a cada reinicio do servidor tomcat embutido.
+
+O usuário é "user".
